@@ -25,12 +25,10 @@ int Count(int[] numbers)
     }
     return count;
 }
-
 PositiveNumbers(m);
-
 Console.WriteLine($"Number of positive numbers introduced is: {Count(numbers)} ");
 
-
+/*
 // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых,
 // заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения 
 // b1, k1, b2 и k2 задаются пользователем.
@@ -48,3 +46,4 @@ double k2 = Convert.ToInt32(Console.ReadLine());
 double x = (-b2 + b1)/(-k1 + k2);
 double y = k2 * x + b2;
 Console.WriteLine($"The straight lines meet at the coordinates ({x};{y})");
+*/
